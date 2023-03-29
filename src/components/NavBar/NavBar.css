@@ -1,0 +1,53 @@
+.navBar {
+    display: flex;
+    margin: 0 auto 81px;
+    width: 1251px;
+}
+
+nav {
+    padding-top: 7.5px;
+    width: 194px;
+    height: 358px;
+    background-color: rgba(232, 236, 240, 1);
+    margin-top: 17px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type:none;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Gravity, 'Times New Roman', Times, serif;
+    padding: 7.5px 19.43px 16.5px ;
+}
+a{ 
+    text-decoration: none;
+    color: rgba(29, 54, 75, 1);
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+.navBar__signin {
+    width: 343px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: rgba(0, 133, 255, 1);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: Gravity, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    margin: 210px 0 0 282px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.navBar__signin:hover {
+    opacity: 70%;
+}
