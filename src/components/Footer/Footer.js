@@ -75,9 +75,9 @@ function Footer() {
             </div>
 
                 <ul className='footer__page'>
-                    <li className='footer__footer'>&copy;2022 &laquo;Аптеки Плюс&raquo;</li>
-                    <li className='footer__footer'>Политика конфиденциальности</li>
-                    <li className='footer__footer'>Пользовательское соглашение</li>
+                    <li className='footer__footer'><a href="">&copy;2022 &laquo;Аптеки Плюс&raquo;</a></li>
+                    <li className='footer__footer'><a href="">Политика конфиденциальности</a></li>
+                    <li className='footer__footer'><a href="">Пользовательское соглашение</a></li>
                 </ul>
                 <div className='footer__page'>
                     <div className='footer__logoLink'>
