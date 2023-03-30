@@ -1,6 +1,6 @@
 import map from '../../images/map.png';
 
-function NavBar() {
+function NavBar({setModalActive}) {
     return (
         <div className="navBar">
             <nav>
@@ -14,7 +14,7 @@ function NavBar() {
                     <li><a href="" alt=''>Помощь</a></li>
                 </ul>
             </nav>
-            <button type='button' className='navBar__signin'>Войти</button>
+            <button type='button' onClick={() => setModalActive(true)} className='navBar__signin'>Войти</button>
         </div>
     )
 }

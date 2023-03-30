@@ -1,0 +1,115 @@
+.auth__blackout {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.auth__blackout.active {
+   opacity: 1;
+   pointer-events: all;
+}
+.auth {
+    width: 422px;
+    height: 584px;
+    background-color:rgba(255, 255, 255, 1) ;
+    color: rgba(29, 54, 75, 1);
+    font-family: Gravity, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+
+.auth__head {
+    display: flex;
+    align-items: center;
+}
+
+.auth__singin {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.auth__head {
+    height: 39px;
+    margin: 38px auto 30px;
+}
+.auth__title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.auth__close {
+    width: 40px;
+    height: 39px;
+    border: none;
+    background-image: url(../../images/closepopup.png);
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.auth__box{
+    position: relative;
+    margin-bottom: 16px;
+} 
+
+.auth__phone {
+    position: absolute;
+    padding: 10px 16px 4px 16px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: rgba(97,115,129,1);
+}
+.auth__input {
+    width: 344px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid rgba(197, 208, 217, 1);
+    padding: 10px 16px 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.auth__input::placeholder{
+    transform: translateY(1px);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgba(29,54,75,1);
+}
+
+.auth__email {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+    color: rgba(0,133,255,1);
+    margin-bottom: 26px;
+}
+.auth__footer {
+    display: flex;
+    justify-content: center;
+    width: 422px;
+    height: 292px;
+    background-image: url(../../images/backgroundauth.png);
+}
+
+.auth__img {
+    align-items: center;
+
+}
