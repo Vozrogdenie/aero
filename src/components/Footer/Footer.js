@@ -4,14 +4,15 @@ import visa from '../../images/visa.png'
 import mastercard from '../../images/mastercard.png'
 import mir from '../../images/mir.png'
 import logo from '../../images/logo.png'
+import { useState } from 'react'
 
 function Footer() {
+    const [isBurger, setIsBurger] = useState(false);
     return (
         <section className="footer">
             <div className="footer__page">
-             
                     <ul className="footer__ul">
-                        <div className="footer__catalog">Каталог</div>
+                        <div className="footer__catalog" onClick={() => setIsBurger(!isBurger)}>Каталог</div>
                         <li className='footer__li'><a href="">Техника для красоты</a></li>
                         <li className='footer__li'><a href="">Лекарство и бады</a></li>
                         <li className='footer__li'><a href="">Спортивные товары</a></li>
@@ -54,10 +55,10 @@ function Footer() {
                         <li className='footer__li'><a href="">Вакансии</a></li>
                         <li className='footer__li'><a href="">Помощь</a></li>
                     </ul>
-                    <div className='footer__ul'>
-                        <p className='footer__subtitle'>Служба пoддержки</p>
-                        <div className='footer__phone' href="">8(495)137-94-95
-                            <p className='footer__li'>Бесплатно по России</p>
+                    <div className='footer__ul up' id='support'>
+                        <p  className='footer__subtitle' id='support'>Служба пoддержки</p>
+                        <div className='footer__phone' href="" id='support'>8(495)137-94-95
+                            <p className='footer__li' id='support'>Бесплатно по России</p>
                         </div>
                         <p className='footer__subtitle'>Аптеки плюс в соцсетях</p>
                         <div className='footer__pay'>
@@ -71,7 +72,6 @@ function Footer() {
                             <a className='footer__cardPay' href=""><img src={mir} /></a>
                         </div>
                     </div>
-  
             </div>
 
                 <ul className='footer__page'>

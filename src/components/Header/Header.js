@@ -8,9 +8,11 @@ import catalog from '../../images/catalog.png'
 function Header() {
     return (
         <section className="header">
+            <div className='header__burger'></div>
             <div className="header__a-plus">
                 <img className='header__plus' src={plusImg} alt="Кнопка ведущая в профиль" />
             </div>
+            <div className='header__lupa'></div>
             <button className="header__catalog"><img className='header__line' src={catalog} alt="" />Каталог</button>
             <div className='header__input'>
                 <input className="header__filter" placeholder="Искать товары"></input>

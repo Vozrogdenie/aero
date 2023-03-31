@@ -1,0 +1,246 @@
+.footer{
+    height: 720px;
+    background-color: rgba(232, 236, 240, 0.5);
+
+
+}
+.footer__obertka{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 297px));
+    grid-template-rows:auto;
+    grid-column-gap: 16px;
+    padding: 39px;
+    row-gap: 40px;
+    justify-content: center;
+
+}
+
+.footer__page{
+ 
+}
+p {
+    margin: 0;
+}
+
+.footer__page.up{
+    grid-column-start: 1; 
+    grid-column-end: 3;
+    display: flex;
+}
+.footer__page.pop{
+    grid-column-start: 1; 
+    grid-column-end: 1;
+    display: grid;
+}
+
+/* .footer__page.kuk {
+    grid-column-start: 2; 
+    grid-column-end: 2;
+    display: grid;
+    grid-row-start: 1; 
+    grid-row-end: 1;
+    align-items: end;
+    align-content: center;
+    margin-top: 40px;
+} */
+.footer__page.pup{
+    grid-column-start: 4; 
+    grid-column-end: 4;
+    display: grid;
+    grid-row-start: 1; 
+    grid-row-end: 1;
+}
+.footer__page.pip {
+    grid-column-start: 4; 
+    grid-column-end: 4;
+    display: grid;
+    grid-row-start: 1; 
+    grid-row-end: 1;
+    align-content: center;
+    
+}
+.footer__page.lalka{
+    grid-column-start: 2; 
+    grid-column-end: 2;
+    display: grid;
+    grid-row-start: 1; 
+    grid-row-end: 1;
+}
+.footer__page.lol{
+    grid-column-start: 2; 
+    grid-column-end: 2;
+    display: grid;
+    grid-row-start: 1; 
+    grid-row-end: 1;
+    align-content: center;
+    margin-top: 83px;
+}
+.footer__catalog {
+    padding: 0 0 6px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: Gravity, 'Times New Roman', Times, serif;
+}
+
+.footer__li{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Gravity, 'Times New Roman', Times, serif;
+    padding: 6px 0 6px;
+
+}
+
+.footer__ul {
+}
+
+.footer__subtitle {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Gravity, 'Times New Roman', Times, serif;
+    color: rgba(97, 115, 129, 1);
+}
+
+.footer__phone {
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: Gravity, 'Times New Roman', Times, serif;
+    margin: 0 0 0 0;
+}
+
+.footer__subtitle{
+    margin: 0 0 16px 0;
+}
+
+
+.footer__pay {
+    display: flex;
+}
+
+.footer__vk {
+    margin-right: 8px;
+    margin-top: 16px;
+}
+
+.footer__cardPay:not(:first-child) {
+    margin:0 0 0 16px;
+}
+
+.footer__footer{
+    padding: 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Gravity, 'Times New Roman', Times, serif;
+}
+
+.footer__footer:first-child{
+    color: rgba(97, 115, 129, 1);
+}
+.footer__footer:not(:first-child){
+    padding-left: 24px;
+}
+
+.footer__logo {
+    width: 115.49px;
+    height: 16px;
+}
+
+.footer__logoLink{
+    display: flex;
+    max-width: 117px;
+    flex-direction: column;
+    height: 40px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Gravity, 'Times New Roman', Times, serif;
+}
+
+.footer__work {
+    display: flex;
+    padding: 8.67px 0 0 0;
+
+}
+
+.footer__aero {
+    color:rgba(0, 133, 255, 1);
+    width:27px;
+    padding-left: 15px;
+}
+
+.footer_box {
+    width: 297px;
+}
+.footer.pup{
+    height: 92px;
+}
+
+@media all and (max-width:894px) {
+    .footer__obertka{
+    grid-template-columns: repeat(1,  335px);
+    grid-template-rows: 112px repeat(1, 56px) ;
+    row-gap: 0;
+    padding: 20px;
+    }
+    .footer__page {
+        border-bottom: 1px solid rgba(197, 208, 217, 1);
+        padding: 20px 0 20px 0;
+    }
+
+    .footer__li {
+        display: none;
+    }
+    .footer__page.pup {
+        grid-column-start: 1; 
+        grid-column-end: -2;
+        color: red;
+    }
+    .footer__page.up{
+        grid-column-start: 1; 
+        grid-column-end: 2;
+        display: flex;
+    }
+    .footer__li.p{
+        display: block;
+    }
+    .footer__page {
+        grid-column-start: 1; 
+        grid-column-end: 2;
+    }
+    .footer__page.pup {
+        grid-row-start: 1; 
+        grid-row-end: 1;
+        grid-column-start: 1; 
+        grid-column-end: 1;
+        padding: 0;
+        height: 112px;
+    }
+    .footer__page.pip {
+        grid-column-start: 1; 
+        grid-column-end: 1;
+        display: grid;
+        grid-row-start: 6; 
+        grid-row-end: 6;
+        align-content: center;
+        
+    }
+    .footer__page.lalka{
+        grid-column-start: 1; 
+        grid-column-end: 1;
+        display: grid;
+        grid-row-start: 4; 
+        grid-row-end: 4;
+    }
+    .footer__page.lol{
+        grid-column-start: 1; 
+        grid-column-end: 1;
+        display: grid;
+        grid-row-start: 5; 
+        grid-row-end: 5;
+        margin: 0;
+    }
+}

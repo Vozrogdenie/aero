@@ -6,11 +6,13 @@ p{
     background-color: rgba(232, 236, 240, 0.5);
     height: 720px;
     color: rgba(29, 54, 75, 1);
+    width: max-content;
 }
 .footer__page {
     width: 1251px;
     margin: 0 auto;
     display: flex;
+    padding: 0 20px 0 20px;
 }
 
 .footer__catalog {
@@ -111,4 +113,34 @@ p{
     color:rgba(0, 133, 255, 1);
     width:27px;
     padding-left: 15px;
+}
+
+.footer_box {
+    width: 297px;
+}
+
+@media (max-width:1283px) {
+    .footer {
+        height: 660px;
+    }
+    .footer__page {
+        flex-direction: column;
+    }
+    /* .footer__ul:not(#support){
+        margin-top: 112px;
+        width: 335px;
+        height: 56px;
+    } */
+    .footer__li{
+        display: none;
+    }
+    div#support{
+        color: red;
+        
+        /* margin-bottom: 20px; */
+        width: 335px;
+        height: 72px;
+  
+    }
+
 }

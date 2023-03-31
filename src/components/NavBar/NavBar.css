@@ -4,7 +4,7 @@
     width: 1251px;
 }
 
-nav {
+.navbar__bar {
     padding-top: 7.5px;
     width: 194px;
     height: 358px;
@@ -50,4 +50,10 @@ a{
 
 .navBar__signin:hover {
     opacity: 70%;
+}
+
+@media (max-width:1283px) {
+    .navbar__bar{
+        display: none;
+    }
 }

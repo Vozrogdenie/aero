@@ -19,7 +19,12 @@
     margin: 0;
     margin-right: 22px;
 }
-
+.header__burger {
+    display: none;
+}
+.header__lupa {
+    display: none;
+}
 .header__a-plus:after {
     content: '';
     position: absolute;
@@ -132,3 +137,47 @@
     margin-left: 20px;
 }
 
+
+@media (max-width:1283px) {
+
+    .header {
+        width: 343px;
+        height: 72px;
+        margin: o auto;
+    }
+    .header__a-plus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-size: 16px;
+        border-radius: 4px;
+        position: relative;
+        width: 229px;
+        height: 40px;
+        margin: 0;
+        margin-right: 22px;
+        margin: 0 16px 0 18px;
+    }
+    .header__catalog {
+        display: none;
+    }
+    .header__input {
+        display: none;
+    }
+    .header__logo {
+        display: none;
+    }
+   .header__burger {
+    display: flex;
+    background-image: url(../../images/burger.png);
+    width: 40px;
+    height: 40px;
+   }
+   .header__lupa {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-image: url(../../images/lupa.png);
+   }
+} 
