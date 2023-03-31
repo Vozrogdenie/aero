@@ -1,6 +1,6 @@
+@import url(./vendor/fonts/fonts.css);
 @import url(./components/App.css);
 @import url(./components/Header/Header.css);
 @import url(./components/NavBar/NavBar.css);
-/* @import url(./components/Footer/Footer.css); */
+@import url(./components/Footer/Footer.css);
 @import url(./components/Auth/Auth.css);
-@import url(./components/Footer/newf.css);
