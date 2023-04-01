@@ -1,6 +1,6 @@
 .auth__blackout {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     position: fixed;
     background-color: rgba(0, 0, 0, 0.3);
     top: 0;
@@ -14,13 +14,15 @@
 }
 
 .auth__blackout.active {
-   opacity: 1;
-   pointer-events: all;
+    opacity: 1;
+    pointer-events: all;
+    z-index: 1;
 }
+
 .auth {
     width: 422px;
     height: 584px;
-    background-color:rgba(255, 255, 255, 1) ;
+    background-color: rgba(255, 255, 255, 1);
     color: rgba(29, 54, 75, 1);
     font-family: 'Gravity', 'Times New Roman', Times, serif;
     box-sizing: border-box;
@@ -29,8 +31,6 @@
     align-items: center;
     border-radius: 20px;
 }
-
-
 
 .auth__head {
     display: flex;
@@ -43,12 +43,18 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 26px;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    min-height: 56px;
+    max-height: 56px;
 }
 
 .auth__head {
     height: 39px;
     margin: 38px auto 30px;
 }
+
 .auth__title {
     font-size: 24px;
     line-height: 28px;
@@ -64,10 +70,10 @@
     background-color: transparent;
 }
 
-.auth__box{
+.auth__box {
     position: relative;
     margin-bottom: 16px;
-} 
+}
 
 .auth__phone {
     position: absolute;
@@ -75,8 +81,9 @@
     font-size: 12px;
     line-height: 16px;
     font-weight: 400;
-    color: rgba(97,115,129,1);
+    color: rgba(97, 115, 129, 1);
 }
+
 .auth__input {
     width: 344px;
     height: 60px;
@@ -86,21 +93,23 @@
     box-sizing: border-box;
     outline: none;
 }
-.auth__input::placeholder{
+
+.auth__input::placeholder {
     transform: translateY(1px);
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
-    color: rgba(29,54,75,1);
+    color: rgba(29, 54, 75, 1);
 }
 
 .auth__email {
     font-size: 14px;
     line-height: 14px;
     font-weight: 700;
-    color: rgba(0,133,255,1);
+    color: rgba(0, 133, 255, 1);
     margin-bottom: 26px;
 }
+
 .auth__footer {
     display: flex;
     justify-content: center;
@@ -112,4 +121,46 @@
 .auth__img {
     align-items: center;
 
+}
+
+@media (max-width:600px) {
+    .auth {
+        width: 375px;
+        height: 100vh;
+        border-radius: 0%;
+        justify-content: center;
+    }
+
+    .auth__title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .auth__head {
+        height: 20px;
+        margin: 26px auto 26px;
+    }
+
+    .auth__singin {
+        margin-bottom: 24px;
+        font-size: 16px;
+        line-height: 16px;
+        width: 343px;
+        height: 56px;
+    }
+
+    .auth__close {
+        margin-left: 8px;
+    }
+
+    .auth__img {
+        align-items: center;
+        width: 298px;
+        height: 440px;
+    }
+
+    .auth__footer {
+        width: 375px;
+        height: 440px;
+    }
 }

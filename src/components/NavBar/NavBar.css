@@ -1,29 +1,31 @@
 .navBar {
     display: flex;
-    margin: 0 auto 81px;
-    width: 1251px;
+    margin: 17px auto 81px;
+    max-width: 1251px;
 }
 
-nav {
+.navbar__bar {
     padding-top: 7.5px;
     width: 194px;
     height: 358px;
     background-color: rgba(232, 236, 240, 1);
-    margin-top: 17px;
 }
+
 ul {
     margin: 0;
     padding: 0;
 }
-li{
-    list-style-type:none;
+
+li {
+    list-style-type: none;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
     font-family: Gravity, 'Times New Roman', Times, serif;
-    padding: 7.5px 19.43px 16.5px ;
+    padding: 7.5px 19.43px 16.5px;
 }
-a{ 
+
+a {
     text-decoration: none;
     color: rgba(29, 54, 75, 1);
     cursor: pointer;
@@ -43,11 +45,28 @@ a{
     text-align: center;
     color: rgba(255, 255, 255, 1);
     border: none;
-    margin: 210px 0 0 282px;
+    margin: 210px auto 0 auto;
     padding: 0;
     cursor: pointer;
 }
 
 .navBar__signin:hover {
     opacity: 70%;
+}
+
+@media (max-width:1283px) {
+    .navBar {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+    .navbar__bar {
+        display: none;
+    }
+
+    .navBar__signin {
+        height: 36px;
+        width: 260px;
+        margin-top: 60px;
+    }
 }

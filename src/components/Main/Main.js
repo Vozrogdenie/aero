@@ -6,12 +6,12 @@ import NavBar from "../NavBar/NavBar";
 
 function Main() {
     const [modalActive, setModalActive] = useState(false);
-    return(
+    return (
         <>
-           <Header/>
-           <NavBar setModalActive={setModalActive}/> 
-           <Auth active={modalActive} setActive={setModalActive}/>
-           <Footer/>
+            <Header />
+            <NavBar setModalActive={setModalActive} />
+            <Auth active={modalActive} setActive={setModalActive} />
+            <Footer />
         </>
     )
 }

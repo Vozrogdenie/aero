@@ -9,8 +9,8 @@ function Auth({ active, setActive }) {
                     <button className='auth__close' onClick={() => setActive(!active)}></button>
                 </div>
                 <div className="auth__box">
-                    <label id="firstname" className="auth__phone">Телефон</label>
-                    <input for="firstname" className="auth__input" placeholder="+7(999) 003-21-21"></input>
+                    <label className="auth__phone">Телефон</label>
+                    <input className="auth__input" placeholder="+7(999) 003-21-21"></input>
                 </div>
                 <div className="auth__singin navBar__signin" >Войти</div>
                 <a href="" className='auth__email'>Войти по почте</a>
