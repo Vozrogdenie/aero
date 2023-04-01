@@ -1,4 +1,32 @@
+<<<<<<< Updated upstream
 p{
+=======
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(232, 236, 240, 0.5);
+}
+
+.footer__all {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 297px));
+    grid-template-rows: auto;
+    grid-column-gap: 16px;
+    padding: 39px;
+    row-gap: 40px;
+    justify-content: center;
+}
+
+.footer__all.ne {
+    opacity: 10%;
+}
+
+.footer__page {}
+
+p {
+>>>>>>> Stashed changes
     margin: 0;
     padding: 0;
 }
