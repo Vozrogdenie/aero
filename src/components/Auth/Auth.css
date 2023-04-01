@@ -46,7 +46,8 @@
     font-size: 18px;
     line-height: 18px;
     font-weight: 700;
-    height: 56px;
+    min-height: 56px;
+    max-height: 56px;
 }
 
 .auth__head {
@@ -123,7 +124,6 @@
 }
 
 @media (max-width:600px) {
-
     .auth {
         width: 375px;
         height: 100vh;
@@ -148,14 +148,17 @@
         width: 343px;
         height: 56px;
     }
+
     .auth__close {
         margin-left: 8px;
     }
+
     .auth__img {
         align-items: center;
         width: 298px;
         height: 440px;
     }
+
     .auth__footer {
         width: 375px;
         height: 440px;

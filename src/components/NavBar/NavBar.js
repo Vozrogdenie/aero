@@ -1,6 +1,6 @@
 import map from '../../images/map.png';
 
-function NavBar({setModalActive}) {
+function NavBar({ setModalActive }) {
     return (
         <div className="navBar">
             <nav className='navbar__bar'>
