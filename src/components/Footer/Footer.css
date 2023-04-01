@@ -3,7 +3,10 @@ p{
     padding: 0;
 }
 .footer {
-    height: 720px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: rgba(232, 236, 240, 0.5);
 }
 
@@ -54,6 +57,7 @@ p {
     grid-row-start: 1;
     grid-row-end: 1;
     align-content: center;
+    margin-top: -82px;
 }
 
 .footer__page.two {
@@ -129,7 +133,7 @@ p {
 
 .footer__vk {
     margin-right: 8px;
-    margin-top: 16px;
+    margin-bottom: 40px;
 }
 
 .footer__cardPay:not(:first-child) {
@@ -290,6 +294,7 @@ p {
         grid-row-end: 6;
         align-content: center;
         border-bottom: none;
+        margin-top: 0;
     }
 
     .footer__subtitle {
