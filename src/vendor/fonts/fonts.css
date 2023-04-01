@@ -1,16 +1,15 @@
 @font-face {
-    src: url(./Gravity-Regular.otf) format("otf");
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-  }
-  
-  @font-face {
-    src: url(./Gravity-Bold.otf) format("otf");
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-  }
-  
+  src: url(./Gravity-Regular.otf) format("otf");
+  font-family: 'Gravity';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  src: url(./Gravity-Bold.otf) format("otf");
+  font-family: 'Gravity';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
