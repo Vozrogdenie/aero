@@ -21,7 +21,7 @@
 
 .auth {
     width: 422px;
-    height: 584px;
+    min-height: 584px;
     background-color: rgba(255, 255, 255, 1);
     color: rgba(29, 54, 75, 1);
     font-family: 'Gravity', 'Times New Roman', Times, serif;
