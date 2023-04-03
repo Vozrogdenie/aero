@@ -2,6 +2,7 @@
     display: flex;
     margin: 17px auto 81px;
     max-width: 1251px;
+    min-height: calc(100vh - 722px);
 }
 
 .navbar__bar {
